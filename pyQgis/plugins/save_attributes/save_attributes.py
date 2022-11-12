@@ -13,6 +13,7 @@ class SaveAttributesPlugin:
     def initGui(self):
         icon = os.path.join(os.path.join(cmd_folder, 'logo.png'))
         self.action = QAction(QIcon(icon), 'Save Attributes as CSV', self.iface.mainWindow())
+        self.action.triggered.connect(self.run)
         self.iface.addPluginToMenu('&Save Attributes', self.action)
         self.iface.addToolBarIcon(self.action)
     
