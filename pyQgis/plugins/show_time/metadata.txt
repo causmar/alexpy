@@ -1,0 +1,7 @@
+[general]
+name=Show Time
+description=This plugin adds a button to the Plugin Toolbar which displays the current time when clicked
+version=1.0
+qgisMinimumVersion=3.0
+author=Cristian Usma
+email=causmar97@gmail.com
