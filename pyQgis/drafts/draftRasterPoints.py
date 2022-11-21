@@ -3,11 +3,11 @@ from numbers import Number
 from osgeo import gdal
 
 # User interface variables
-gridPath = r'C:\Personal\PyQGIS\pyqgis_in_a_day\srtm.tif'
+gridPath = r'/home/alejo97/General/learning/pyqgis_in_a_day/srtm.tif'
 band = 1
-pointPath = r'C:\Personal\PyQGIS\otros\dique_UTM.shp'
-valueField = 'valor'
-outPath = r'C:\Personal\PyQGIS\otros\srtm_modif.tif'
+pointPath = r'/home/alejo97/General/learning/pyqgis_in_a_day/dique.shp'
+valueField = 'Valor'
+outPath = r'/home/alejo97/General/learning/pyqgis_in_a_day/srtm_modif.tif'
 
 # Load data
 gridLayer = gdal.Open(gridPath)

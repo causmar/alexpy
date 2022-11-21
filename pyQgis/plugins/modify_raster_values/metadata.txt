@@ -1,0 +1,7 @@
+[general]
+name=Modify Raster Values
+description=This plugin changes the values of raster pixels using a point layer and the corresponding point values
+version=1.0
+qgisMinimumVersion=3.0
+author=Cristian Usma
+email=causmar97@gmail.com
